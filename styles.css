@@ -1,5 +1,52 @@
+/*Reset styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Utils*/
+
+.clearfix:before, .clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+/*Main styles*/
+
 .calculator {
-    width: 100px;
-    height: 100px;
-    background: red;
+    width: 170px;
+    background: #c2c2c2;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.calculator-window {
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.buttons-container {}
+
+.calc-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    text-align: center;
+    padding: 0;
+    line-height: 28px;
+    display: block;
+    float: left;
 }
