@@ -49,4 +49,21 @@ html, body {
     line-height: 28px;
     display: block;
     float: left;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.calc-btn:hover {
+    box-shadow: inset 0 0 5px 2px #6a6a6a;
+    /*background: aquamarine;*/
+}
+
+.calc-btn:active {
+    outline: none;
+    box-shadow: inset 0 0 10px 3px #6a6a6a;
+    /*background: aqua;*/
+}
+
+.calc-btn:focus {
+    outline: none;
 }
