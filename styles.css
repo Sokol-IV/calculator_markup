@@ -19,6 +19,18 @@ html, body {
     height: 0;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.f-left {
+    float: left;
+}
+
 /*Main styles*/
 
 .calculator {
@@ -48,7 +60,6 @@ html, body {
     padding: 0;
     line-height: 28px;
     display: block;
-    float: left;
     cursor: pointer;
     transition: all 200ms linear;
 }
@@ -66,4 +77,12 @@ html, body {
 
 .calc-btn:focus {
     outline: none;
+}
+
+.calc-btn.tall {
+    height: 60px;
+}
+
+.btn-tall {
+    height: 60px;
 }
