@@ -86,3 +86,51 @@ html, body {
 .btn-tall {
     height: 60px;
 }
+
+
+
+.table {
+    width: 270px;
+    height: 200px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.colm1 {
+    width: 80px;
+    height: 190px;
+    border: 1px solid #000000;
+    background: aqua;
+    border-radius: 1px;
+    padding: 0;
+    line-height: 28px;
+    display: block;
+    cursor: pointer;
+    transition: all 200ms linear;
+    float: left;
+
+}
+
+.colm2 {
+    width: 80px;
+    height: 190px;
+    border: 1px solid #000000;
+    background: aqua;
+    border-radius: 1px;
+    padding: 0;
+    line-height: 28px;
+    display: block;
+    float: left;
+}
+
+.str {
+    width: 70px;
+    height: 60px;
+    border: 1px solid #000000;
+    background: aquamarine;
+    border-radius: 1px;
+    padding: 0;
+    display: block;
+}
