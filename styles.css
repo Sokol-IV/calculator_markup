@@ -115,7 +115,7 @@ html, body {
 
 .colm2 {
     width: 80px;
-    height: 190px;
+    height: 100%;
     border: 1px solid #000000;
     background: aqua;
     border-radius: 1px;
