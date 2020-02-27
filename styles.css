@@ -109,7 +109,7 @@ html, body {
 
 .table {
     width: 270px;
-    height: 200px;
+    min-height: 190px;
     margin: auto;
     padding: 5px;
     border: 1px solid #000000;
@@ -118,7 +118,7 @@ html, body {
 
 .colm1 {
     width: 80px;
-    height: 190px;
+    min-height: 50%;
     border: 1px solid #000000;
     background: aqua;
     border-radius: 1px;
@@ -133,7 +133,7 @@ html, body {
 
 .colm2 {
     width: 80px;
-    height: 100%;
+    height: 50%;
     border: 1px solid #000000;
     background: aqua;
     border-radius: 1px;
@@ -151,4 +151,40 @@ html, body {
     border-radius: 1px;
     padding: 0;
     display: block;
+}
+
+.container {
+    width: 900px;
+    height: 300px;
+    border: 1px solid #000000;
+    background: darkkhaki;
+    border-radius: 1px;
+}
+
+
+.as {
+    width: 30%;
+    background: burlywood;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    float: left;
+}
+.m {
+    width: calc(70% - 20px);
+    background: darkgray;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.item {
+    width: 195px;
+    height: 30px;
+    background: red;
+    border: 1px solid #000000;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
