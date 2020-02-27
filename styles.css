@@ -12,7 +12,7 @@ html, body {
 /*Utils*/
 
 .clearfix:before, .clearfix:after {
-    content: ' ';
+    content: '';
     display: block;
     clear: both;
     visibility: hidden;
@@ -154,8 +154,9 @@ html, body {
 }
 
 .container {
-    width: 900px;
-    height: 300px;
+    width: 75%;
+    margin: 0 auto;
+    /*height: 300px;*/
     border: 1px solid #000000;
     background: darkkhaki;
     border-radius: 1px;
@@ -168,7 +169,6 @@ html, body {
     border: 1px solid #000000;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    float: left;
 }
 .m {
     width: calc(70% - 20px);
@@ -180,12 +180,22 @@ html, body {
 }
 
 .item {
-    width: 195px;
+    width: calc((100% - 6%) / 3);
+    margin: 1%;
     height: 30px;
     background: red;
     border: 1px solid #000000;
-    float: left;
-    margin-left: 5px;
-    margin-bottom: 5px;
+}
+
+.items-wrapper {
+    margin: 0 -1%;
+    /*width: 510px;*/
+}
+
+.back-to-top {
+    margin: 0;
+    margin-left: -45%;
+    height: 30px;
+    margin-top: -30px;
 }
 
