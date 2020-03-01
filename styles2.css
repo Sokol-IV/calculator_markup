@@ -21,7 +21,7 @@ html, body {
 
 .w-80 {
     /*width: 80%;*/
-    max-width: 306px;
+    max-width: 272px;
 }
 
 .w-20 {
@@ -39,7 +39,7 @@ html, body {
 /*Main styles*/
 
 .calculator {
-    width: 338px;
+    width: 364px;
     background: yellow;
     margin: auto;
     padding: 15px;
@@ -55,13 +55,13 @@ html, body {
 }
 
 .buttons-holder {
-    margin-top: 2px;
+    margin-top: 15px;
     overflow: hidden;
 }
 
 
 .buttons-container {
-    margin-top: -2px;
+    margin-top: -8px;
     background: red;
 }
 
@@ -76,8 +76,8 @@ html, body {
     display: block;
     cursor: pointer;
     transition: all 200ms linear;
-    margin-right: 2px;
-    margin-top: 2px;
+    margin-right: 8px;
+    margin-top: 8px;
 }
 
 .calc-btn:nth-child(4n) {
@@ -98,9 +98,9 @@ html, body {
 }
 
 .calc-btn.tall {
-    height: 182px;
+    height: 128px;
 }
 
 .btn-wrapper.tall {
-    height: 182px;
+    height: 128px;
 }
