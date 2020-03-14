@@ -1,0 +1,28 @@
+.btn {
+    /*width: 30px;*/
+    height: 30px;
+    border: 1px solid #000000;
+    /*margin: 2px;*/
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background: aquamarine;
+    width: 300px;
+    height: 500px;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.flex-container2 {
+    width: 300px;
+    background: indianred;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+}

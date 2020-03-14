@@ -1,5 +1,18 @@
-.calculator {
+.form {
     width: 100px;
     height: 100px;
-    background: red;
+    background: lightpink;
+    margin: auto;
+    transition: 3s;
+    transform: scale(0.5);
+}
+
+.form:hover {
+    transform: scale(1.5);
+    background: coral;
+}
+
+.conteiner {
+    width: 250px;
+    margin: auto;
 }
